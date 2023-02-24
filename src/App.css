@@ -1,0 +1,53 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+
+.app{
+  height: 100%;
+  width: 100%;
+}
+.map{
+  height:90vh;
+  width: 100vw;
+
+}
+.marker {
+  background-image: url('https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678111-map-marker-512.png');
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 11px;
+}
+
+.marker-route{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoZ9TmEl0AJP3_-2C-h-pFKCs3WIQpkeYRgg&usqp=CAU');
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 11px;
+}
+
+.search-bar{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.search-bar h1{
+  background-color: black;
+  color:white;
+  font-size: 40px;
+  font-weight: bolder;
+
+}
+
+.longitude{
+  width:400px;
+  height:3vh;
+}
+
+.latitude{
+  width: 400px;
+  height:3vh;
+}
